@@ -1,0 +1,22 @@
+{
+  "name": "gask",
+  "version": "0.1.0",
+  "description": "Ask Google AI Mode from the terminal via headless Chrome",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "gask": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "build": "bun build --compile src/index.ts --outfile gask.exe",
+    "install:local": "bun run scripts/install.ts",
+    "probe": "bun run scripts/probe.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "bun-types": "^1.4.1",
+    "typescript": "^7.0.2"
+  }
+}

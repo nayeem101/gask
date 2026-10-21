@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.bun-cache/
+.bun/
+
+# Build output
+gask.exe
+/gask
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Runtime and debug artifacts
+probe-output/
+debug-html/
+*-debug.html
+page-dump*.html
+tmp/
+temp/
+.cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+bun-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test and coverage
+coverage/
+.nyc_output/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Tool caches
+.eslintcache
+.stylelintcache
+.turbo/
